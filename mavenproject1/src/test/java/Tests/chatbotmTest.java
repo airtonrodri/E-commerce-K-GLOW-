@@ -1,8 +1,12 @@
-package modelo;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Tests;
 
-import static junit.framework.Assert.assertEquals;
-import org.junit.Test;
-
+import modelo.chatbotm;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class chatbotmTest {
 
