@@ -58,7 +58,7 @@ public class chatbotc {
      * Método que procesa la pregunta del usuario.
      * Obtiene la pregunta de la vista, la registra, y luego obtiene y muestra la respuesta.
      */
-    private void procesarPregunta() {
+    public void procesarPregunta() {
         String pregunta = Vista.getPregunta(); // Obtener la pregunta del usuario
         logger.info("Pregunta del usuario: {}", pregunta); // Registrar pregunta del usuario
 
